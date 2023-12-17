@@ -1,0 +1,141 @@
+.students-container{
+    display: flex;
+}
+
+.side-panel{
+    flex: 0.3;
+}
+
+.students-main{
+    flex: 0.7;
+    background-color: white;
+    padding: 66px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.students-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.students-title {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.students-title img{
+    width: 42px;
+}
+
+.add-student-button{
+    padding: 12px 24px;
+    background-color: #5C93FA;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+.add-student-drawer{
+    padding: 6px 12px;
+    background-color: #5C93FA;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.add-student-button img{
+    width: 24px;
+}
+
+.students-data-head{
+    display: flex;
+    padding: 12px 24px;
+    background-color: #5C93FA;
+    border-radius: 10px;
+    color: white;
+    gap: 8px;
+}
+
+.students-data-head>*{
+    flex: 1;
+}
+
+.student-data{
+    display: flex;
+    padding: 12px 24px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    gap: 8px;
+    align-items: center;
+}
+
+.student-data>*{
+    flex: 1;
+    gap: 8px;
+}
+
+.profile-image img{
+    width: 40px;
+}
+
+.view img, .edit img{
+    width: 16px;
+}
+
+.upload-icon img{
+    width: 24px !important;
+}
+
+.upload-icon{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.drawer-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 60px;
+}
+
+.user-image img{
+    width: 150px;
+}
+
+.user-image{
+    position: relative;
+}
+
+.add-student-head-drawer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    gap: 8px;
+}
+
+input{
+    border: 1px solid #DBDADA;
+    border-radius: 10px;
+    padding: 12px 20px;
+}
